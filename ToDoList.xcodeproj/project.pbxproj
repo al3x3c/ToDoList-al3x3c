@@ -21,8 +21,8 @@
 		FA91407618B32E8E000F8B77 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA91407518B32E8E000F8B77 /* ToDoListTests.m */; };
 		FA91408018B3332E000F8B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91407F18B3332E000F8B77 /* Main.storyboard */; };
 		FA91408318B3536A000F8B77 /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA91408218B3536A000F8B77 /* XYZAddToDoItemViewController.m */; };
-		FADEFD3B192B4952005F4C1D /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEFD3A192B4952005F4C1D /* XYZAddToDoItemViewController.m */; };
 		FADEFD3E192B4A9D005F4C1D /* XYZToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEFD3D192B4A9D005F4C1D /* XYZToDoListViewController.m */; };
+		FADEFD41192B57FE005F4C1D /* XYZToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADEFD40192B57FE005F4C1D /* XYZToDoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		FA91407F18B3332E000F8B77 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA91408118B3536A000F8B77 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
 		FA91408218B3536A000F8B77 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
-		FADEFD39192B4952005F4C1D /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
-		FADEFD3A192B4952005F4C1D /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
 		FADEFD3C192B4A9D005F4C1D /* XYZToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListViewController.h; sourceTree = "<group>"; };
 		FADEFD3D192B4A9D005F4C1D /* XYZToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListViewController.m; sourceTree = "<group>"; };
+		FADEFD3F192B57FE005F4C1D /* XYZToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListTableViewController.h; sourceTree = "<group>"; };
+		FADEFD40192B57FE005F4C1D /* XYZToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +122,9 @@
 			children = (
 				FA91405F18B32E8E000F8B77 /* XYZAppDelegate.h */,
 				FA91406018B32E8E000F8B77 /* XYZAppDelegate.m */,
-				FADEFD39192B4952005F4C1D /* XYZAddToDoItemViewController.h */,
-				FADEFD3A192B4952005F4C1D /* XYZAddToDoItemViewController.m */,
 				FA91407F18B3332E000F8B77 /* Main.storyboard */,
+				FADEFD3F192B57FE005F4C1D /* XYZToDoListTableViewController.h */,
+				FADEFD40192B57FE005F4C1D /* XYZToDoListTableViewController.m */,
 				FADEFD3C192B4A9D005F4C1D /* XYZToDoListViewController.h */,
 				FADEFD3D192B4A9D005F4C1D /* XYZToDoListViewController.m */,
 				FA91406218B32E8E000F8B77 /* Images.xcassets */,
@@ -261,7 +261,7 @@
 			files = (
 				FADEFD3E192B4A9D005F4C1D /* XYZToDoListViewController.m in Sources */,
 				FA91406118B32E8E000F8B77 /* XYZAppDelegate.m in Sources */,
-				FADEFD3B192B4952005F4C1D /* XYZAddToDoItemViewController.m in Sources */,
+				FADEFD41192B57FE005F4C1D /* XYZToDoListTableViewController.m in Sources */,
 				FA91405D18B32E8E000F8B77 /* main.m in Sources */,
 				FA91408318B3536A000F8B77 /* XYZAddToDoItemViewController.m in Sources */,
 			);
